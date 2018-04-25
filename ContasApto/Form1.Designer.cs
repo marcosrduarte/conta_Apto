@@ -45,8 +45,8 @@
             this.apagarToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.sobreToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.sobreOAplicativoToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.txtQtdmoradores = new System.Windows.Forms.TextBox();
             this.lblQtdmoradores = new System.Windows.Forms.Label();
+            this.cmbMoradores = new System.Windows.Forms.ComboBox();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -192,13 +192,6 @@
             this.sobreOAplicativoToolStripMenuItem1.Text = "Sobre o Aplicativo";
             this.sobreOAplicativoToolStripMenuItem1.Click += new System.EventHandler(this.sobreOAplicativoToolStripMenuItem1_Click);
             // 
-            // txtQtdmoradores
-            // 
-            this.txtQtdmoradores.Location = new System.Drawing.Point(35, 71);
-            this.txtQtdmoradores.Name = "txtQtdmoradores";
-            this.txtQtdmoradores.Size = new System.Drawing.Size(41, 22);
-            this.txtQtdmoradores.TabIndex = 0;
-            // 
             // lblQtdmoradores
             // 
             this.lblQtdmoradores.AutoSize = true;
@@ -208,14 +201,34 @@
             this.lblQtdmoradores.TabIndex = 21;
             this.lblQtdmoradores.Text = "Quantidade de Moradores";
             // 
+            // cmbMoradores
+            // 
+            this.cmbMoradores.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbMoradores.FormattingEnabled = true;
+            this.cmbMoradores.Items.AddRange(new object[] {
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"});
+            this.cmbMoradores.Location = new System.Drawing.Point(35, 71);
+            this.cmbMoradores.Name = "cmbMoradores";
+            this.cmbMoradores.Size = new System.Drawing.Size(46, 24);
+            this.cmbMoradores.TabIndex = 22;
+            this.cmbMoradores.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
+            // 
             // frmPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.HotTrack;
             this.ClientSize = new System.Drawing.Size(383, 602);
+            this.Controls.Add(this.cmbMoradores);
             this.Controls.Add(this.lblQtdmoradores);
-            this.Controls.Add(this.txtQtdmoradores);
             this.Controls.Add(this.btnCalcular);
             this.Controls.Add(this.txtOutros);
             this.Controls.Add(this.lblOutros);
@@ -258,10 +271,10 @@
         private System.Windows.Forms.Button btnCalcular;
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem apagarToolStripMenuItem1;
-        private System.Windows.Forms.TextBox txtQtdmoradores;
         private System.Windows.Forms.Label lblQtdmoradores;
         private System.Windows.Forms.ToolStripMenuItem sobreToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem sobreOAplicativoToolStripMenuItem1;
+        private System.Windows.Forms.ComboBox cmbMoradores;
     }
 }
 

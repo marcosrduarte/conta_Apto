@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ContasApto.exe" size="13768">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ContasApto.exe" size="14280">
       <assemblyIdentity name="ContasApto" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>tbvIw6iZR6704eu9jxqjMih5PRyWCClHVa66ES1EVnw=</dsig:DigestValue>
+        <dsig:DigestValue>orr/rL3juPcJQDokFlRbBsn9tcFq7D5vu1os7121NhU=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
