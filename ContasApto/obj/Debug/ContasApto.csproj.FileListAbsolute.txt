@@ -1,0 +1,14 @@
+C:\Users\marco\source\repos\ContasApto\ContasApto\bin\Debug\ContasApto.exe.config
+C:\Users\marco\source\repos\ContasApto\ContasApto\bin\Debug\ContasApto.exe
+C:\Users\marco\source\repos\ContasApto\ContasApto\bin\Debug\ContasApto.pdb
+C:\Users\marco\source\repos\ContasApto\ContasApto\obj\Debug\ContasApto.csprojResolveAssemblyReference.cache
+C:\Users\marco\source\repos\ContasApto\ContasApto\obj\Debug\ContasApto.frmPrincipal.resources
+C:\Users\marco\source\repos\ContasApto\ContasApto\obj\Debug\ContasApto.Properties.Resources.resources
+C:\Users\marco\source\repos\ContasApto\ContasApto\obj\Debug\ContasApto.csproj.GenerateResource.cache
+C:\Users\marco\source\repos\ContasApto\ContasApto\obj\Debug\ContasApto.csproj.CoreCompileInputs.cache
+C:\Users\marco\source\repos\ContasApto\ContasApto\obj\Debug\ContasApto.exe
+C:\Users\marco\source\repos\ContasApto\ContasApto\obj\Debug\ContasApto.pdb
+C:\Users\marco\source\repos\ContasApto\ContasApto\bin\Debug\ContasApto.exe.manifest
+C:\Users\marco\source\repos\ContasApto\ContasApto\bin\Debug\ContasApto.application
+C:\Users\marco\source\repos\ContasApto\ContasApto\obj\Debug\ContasApto.exe.manifest
+C:\Users\marco\source\repos\ContasApto\ContasApto\obj\Debug\ContasApto.application
